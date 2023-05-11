@@ -21,8 +21,18 @@ server.port=8080
     spring.datasource.password=my_password
     
 ## Example  API Requuests
-* POST: http://localhost:8080/patients/addPatient
+* POST: http://localhost:8080/patients/addPatient Add new patient
+
 ![image](https://github.com/mitza3388/Corona_management_system/assets/133001623/2f9ee4b8-7031-4806-975b-e3d530e019c3)
+
+* GET: http://localhost:8080/patients/getAll  Get All patients
+* 
+* GET: http://localhost:8080/patients/get/{id} Get patient by id
+
+![image](https://github.com/mitza3388/Corona_management_system/assets/133001623/c89f1af3-1794-4498-8cdd-e993b83a6bec)
+
+
+
 
 
 
