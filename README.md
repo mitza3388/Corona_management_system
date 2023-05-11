@@ -4,6 +4,7 @@ You can retrieve details about existing patients in the system or insert new pat
 
 ## Technologies used
 * java
+* IntelliJ
 * MySql
 * spring Framework
 * spring boot
@@ -21,6 +22,8 @@ server.port=8080
     spring.datasource.password=my_password
     
 ## Example  API Requuests
+
+* GET: http://localhost:8080/patients/getAllDet/333 get personal and corona info by patient id
 ### Api's for corona info table
 * GET: http://localhost:8080/coronaInfo/getAll get all patients corona info
 * GET: http://localhost:8080/coronaInfo/get/{id} get patient's corona info by id
